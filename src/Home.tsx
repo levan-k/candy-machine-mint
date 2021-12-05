@@ -95,6 +95,28 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="prizing">
+        <div className="limited flex-center flex-justify flex-revert">
+          <div className="info">
+            <h2>Prizing</h2>
+            <div className="medium">
+              <ol>
+                <li>300 SOL will be sent to the minter of the 1 of 1 Genesis Solcoin!</li>
+                <li>200 SOL (8 SOL each) will be sent to the 25 winning Solcoin treasure diggers!</li>
+                <li>500 SOL (20 SOL each) will be sent to the 25 Solcoin owners of the winning treasure digs!</li>
+              </ol>
+            </div>
+            <p className="medium">
+              Note: Prizing is based on the assumption that all 4501 Solcoins are minted. If less than 4501 Solcoins are
+              minted, then prizing will be prorated based on the number of minted Solcoins. Example: If only 4000 of
+              4501 Solcoins are minted (88.8%) then total prizing will be 88.8% of the amounts listed above.
+            </p>
+          </div>
+          <div className="example scroll-in-animate envelope-in">
+            <img src="/assets/images/examples/2.png" alt="Solana Crypto NFT Solcoins Example" />
+          </div>
+        </div>
+      </section>
       <section className="who-are-we">
         <div className="limited flex-center flex-justify flex">
           <div className="info">
