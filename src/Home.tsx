@@ -60,7 +60,11 @@ const Home = () => {
 
           <div className="banner flex-center flex-justify">
             <p className="medium">See how it all began...</p>
-            <button onClick={() => "window.location.href='/assets/origin-story.pdf#zoom=300'"}>
+            <button
+              onClick={() => {
+                window.open('/assets/origin-story.pdf#zoom=300', '_blank')
+              }}
+            >
               Read the Origin Story
             </button>
           </div>
@@ -239,9 +243,7 @@ const Home = () => {
         <div className="limited flex-center flex-justify flex">
           <div className="info">
             <h2>WHEN?</h2>
-            <p className="medium">
-              Minting is live! Minting will continue until 4501 Solcoins have been discovered.
-            </p>
+            <p className="medium">Minting is live! Minting will continue until 4501 Solcoins have been discovered.</p>
           </div>
           <div className="example scroll-in-animate envelope-in">
             <img src="/assets/images/examples/9.png" alt="Solana Crypto NFT Solcoins Example" />
@@ -256,7 +258,8 @@ const Home = () => {
             <p className="medium">
               Minting will take place directly on solcoins.io and nowhere else. After minting, the collection will be
               listed on several marketplaces starting with Digital Eyes and Magic Eden.
-            </p><br/>
+            </p>
+            <br />
             <p className="medium">
               <a href="/mint"> Click here to mint Solcoins! </a>
             </p>
